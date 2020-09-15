@@ -1,24 +1,18 @@
 import React from 'react';
 import './App.css';
-import {Object, yes, no} from './objects'
+import Object from './objects'
 
 
 class App extends React.Component {
 
-  generatePage=() => {
-    return 
-  }
- 
   render () {
     console.log('entered render')
     return (
       <>
        < Object />
-
       </>
     )
   }
-
 } 
 
 

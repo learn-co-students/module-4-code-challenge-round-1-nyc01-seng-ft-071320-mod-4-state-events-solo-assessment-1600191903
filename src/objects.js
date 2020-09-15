@@ -31,13 +31,5 @@ class Object extends React.Component {
 
 }
 export default Object
-export {Object, yes, no}
 
-// yes: {
-//     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQptvy1IuxkMzOgcsR_uWucIkwE67jI04GfUg&usqp=CAU",
-//     statement: "google the answer"
-// },
-// no: {
-//     img: "https://thumbs.gfycat.com/ElaborateShinyBernesemountaindog-size_restricted.gif",
-//     statement: "learn problem solving, syntax, reading documentation"
-// }
+
