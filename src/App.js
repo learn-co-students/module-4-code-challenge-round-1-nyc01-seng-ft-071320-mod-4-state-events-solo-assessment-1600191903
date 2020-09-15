@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import RenderScreen from './RenderScreen'
+import RenderScreen from './Components/RenderScreen'
 
 class App extends React.Component {
   render() {
     return (
       <>
       <h1>You Can Do This!</h1>
-      <RenderScreen />
+      <RenderScreen image={}/>
       </>
     )
   }
