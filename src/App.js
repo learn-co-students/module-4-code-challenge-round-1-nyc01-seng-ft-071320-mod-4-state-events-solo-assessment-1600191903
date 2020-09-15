@@ -15,7 +15,8 @@ class App extends React.Component {
 
   //if image is clicked, then change statement and the picture... vice-versa
 
-
+  //I can't map over an object since it isn't an array of objects... so then what?
+  
   yesApiImage = () => {
     return (yes["yes-image"])
   }
