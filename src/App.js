@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import Image from './Image'
+import DrakeCards from './DrakeCards';
 
 function App() {
-  return <h1><Image /></h1>;
+  return <h1><DrakeCards /></h1>;
 }
 
 export default App;

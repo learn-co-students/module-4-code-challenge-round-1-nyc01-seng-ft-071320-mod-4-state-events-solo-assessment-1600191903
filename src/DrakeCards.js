@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import {yes, no} from './objects'
 
 
-class Image extends Component {
+class DrakeCards extends Component {
     
     state = {
         yesMode: false
@@ -27,4 +27,4 @@ class Image extends Component {
     }
 }
 
-export default Image
+export default DrakeCards
