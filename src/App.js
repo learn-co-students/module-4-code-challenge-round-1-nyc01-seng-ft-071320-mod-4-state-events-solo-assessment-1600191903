@@ -1,8 +1,14 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Statement from "./Statement";
 
+// const sArray = [yes, no];
+// const statementF = () => {
+//   sObj.map((ele) => <Statement statement={ele} />);
+// };
+// console.log(statementF)
 function App() {
-  return <h1>You Can Do This!</h1>;
+  return <Statement yesOrNo="yes" />;
 }
 
 export default App;
