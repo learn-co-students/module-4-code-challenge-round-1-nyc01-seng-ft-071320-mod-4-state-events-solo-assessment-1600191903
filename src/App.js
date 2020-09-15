@@ -5,12 +5,13 @@ import { yes, no } from './objects'
 class App extends React.Component {
   // console.log({yes, no})
 
-  // state = {
-  //   shown: true
-  // }
+  state = {
+    toggle: true
+  }
 
   clickHandler = () => {
     console.log("clicked")
+    this.setState((previousState) => ({ toggle: !previousState.toggle }))
   }
 
   //if image is clicked, then change statement and the picture... vice-versa
@@ -23,9 +24,10 @@ class App extends React.Component {
   
   //playing around with Object.entries() --> to try and make the object into an array
   // so that I can use .map
-  noApi = () => {
-    no.entries(no).map(item => {console.log(item)})
-  }
+  
+  // noApi = () => {
+  //   no.entries(no).map(item => {console.log(item)})
+  // }
   
 
   render() {
@@ -34,10 +36,10 @@ class App extends React.Component {
     return (
       <>
         <span>
-          <h1>You Can Do This!</h1>
+          <h1>{this.state.toggle ? Object.values(yes)[1] : Object.values(no)[1]}</h1>
         </span>
         <span>
-          <img src={this.yesApiImage}></img>
+          <img onClick={this.clickHandler} src={this.state.toggle ? Object.values(yes) : Object.values(no)[0]}></img>
         </span>
       </>
     );
