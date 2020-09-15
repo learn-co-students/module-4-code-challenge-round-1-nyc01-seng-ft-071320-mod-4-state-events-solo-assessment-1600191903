@@ -12,4 +12,4 @@
 
 - When the image is clicked, it should switch from the "no" image and statement to the "yes" image and statement. When clicked a second time it should flip again. 
 
-You are given an `App.js` file, an `objects.js` file which exports the two objects mentioned above, and a `state-basic-assessment-wireframe` file which has your wireframe. Use all the tools you have learned to build this app in the way you feel is best. CSS is not mandatory but should be worked on if you have time remaining.
+You are given an `App.js` file, an `objects.js` file which exports the two objects mentioned above, and a `state-basic-assessment-wireframe` file which has your wireframe. Use all the tools you have learned to build this app in the way you feel is best. CSS is not mandatory but should be worked on if you have time remaining.`
