@@ -5,9 +5,34 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(https://media0.giphy.com/media/aRZ4vTsHnyW6A/giphy.gif?cid=ecf05e47qjs09qs4pvw55l3tphbws5whb0894cnl07kwhh3a&rid=giphy.gif); 
+  background-repeat: repeat; 
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1 {
+  text-align: center;
+  color: red;
+}
+
+header {
+  height: 100px;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+
+}
+
+img {
+  display: block;
+  margin: auto auto auto auto;
+}
+
+.jello-horizontal {
+	-webkit-animation: jello-horizontal 0.9s both;
+	        animation: jello-horizontal 0.9s both;
 }
