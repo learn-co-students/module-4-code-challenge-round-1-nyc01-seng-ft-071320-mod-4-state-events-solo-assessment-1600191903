@@ -19,7 +19,10 @@ class App extends React.Component {
     return (
       <>
       <h1 onClick={this.ClickHandler}> I'm not sure if I can do this...</h1>
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQptvy1IuxkMzOgcsR_uWucIkwE67jI04GfUg&usqp=CAU"></img>
+      {this.state.clicked 
+        ? <img onClick={this.clickHandler} alt="" src={yes["yes-image"]}></img>   
+        : <img onClick={this.clickHandler} alt="" src={no["no-image"]}></img>
+      }
       </>
     )
 
