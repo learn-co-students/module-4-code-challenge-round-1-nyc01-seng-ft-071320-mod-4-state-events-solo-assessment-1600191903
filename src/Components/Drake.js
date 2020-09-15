@@ -1,4 +1,5 @@
 import React from 'react'
+import './Drake.css'
 import { yes, no } from '../objects.js'
 
 class Drake extends React.Component {
@@ -13,7 +14,7 @@ class Drake extends React.Component {
     render() {
         return (
             <div id="main">
-                <h2>{this.state.bool ? yes["yes-statement"] : no["no-statement"]}</h2>
+                <h2>{this.state.bool ? yes["yes-statement"].toUpperCase() : no["no-statement"].toUpperCase()}</h2>
                 <img onClick={this.clickHandler} src={this.state.bool ? yes["yes-image"] : no["no-image"]} />
             </div>
         )
