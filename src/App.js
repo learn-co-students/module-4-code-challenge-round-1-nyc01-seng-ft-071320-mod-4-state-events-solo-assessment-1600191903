@@ -16,12 +16,14 @@ class App extends React.Component {
   render() {
     return (
     <div>
-      <h1>
-        {/* statement */}
-      </h1>
-      <img onClick={this.clickHandler}>
-        {/* img src */}
-      </img>
+      {this.state.clicked
+      ? <h1 onClick={this.clickHandler}>{yes["yes-statement"]}</h1>
+      : <h1 onClick={this.clickHandler}>{no["no-statement"]}</h1>
+      }
+      {this.state.clicked 
+      ? <img onClick={this.clickHandler} src={yes["yes-image"]}></img>
+      : <img onClick={this.clickHandler} src={no["no-image"]}></img>
+      }
     </div>
     )
   }
