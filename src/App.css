@@ -42,6 +42,7 @@ div.Statement {
   width: 500px;
   margin: 100px auto;
   height: 50px;
+  line-height: 45px;
 }
 
 div.Image {
