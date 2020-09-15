@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+div.Statement {
+  border: 1px solid black;
+  width: 500px;
+  margin: 100px auto;
+  height: 50px;
+}
+
+div.Image {
+  border: 1px solid black;
+  width: 500px;
+  margin: auto;
+  height: 400px;
+}
