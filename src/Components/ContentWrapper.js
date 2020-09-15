@@ -19,8 +19,8 @@ export default class ContentWrapper extends React.Component {
   render(){
     return(
       <div className="content-wrapper">
-        {this.state.clicked ? <h2 >{yes["yes-statement"]}</h2> : <h2>{no["no-statement"]}</h2>}
-        { this.state.clicked ? <img onClick={this.clickHandler} alt="" src={yes["yes-image"]}/> : <img onClick={this.clickHandler} alt="" src={no["no-image"]}/>}
+        <h2 >{this.state.clicked ? yes["yes-statement"] : no["no-statement"]}</h2>
+        <img onClick={this.clickHandler} alt="" src={this.state.clicked ? yes["yes-image"] : no["no-image"]}/> 
       </div>
     )
   }
