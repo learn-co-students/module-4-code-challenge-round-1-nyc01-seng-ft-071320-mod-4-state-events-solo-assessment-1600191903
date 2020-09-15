@@ -14,14 +14,14 @@ class Statement extends React.Component {
         if(this.state.clicked === true){
             return (
                 <>
-                <h1>{yes["yes-statement"]}</h1>
+                <h1 style={{"textAlign": "center", "borderWidth":"1px", "borderStyle":"solid"}}>{yes["yes-statement"]}</h1>
                 <Image src={yes["yes-image"]} alt={yes["yes-statement"]} />
                 </>
                 )
         } else if (this.state.clicked === false){
             return (
                 <>
-                <h1>{no["no-statement"]}</h1>
+                <h1 style={{"textAlign": "center", "borderWidth":"1px", "borderStyle":"solid"}}>{no["no-statement"]}</h1>
                 <Image src={no["no-image"]} alt={no["no-statement"]} />
                 </>
                 )
