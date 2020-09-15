@@ -1,8 +1,13 @@
 import React from 'react';
 import './App.css';
-
+import Display from './Display'
 function App() {
-  return <h1>You Can Do This!</h1>;
+  return (
+    <div className="app">
+
+      <Display />
+    </div>
+  );
 }
 
 export default App;
